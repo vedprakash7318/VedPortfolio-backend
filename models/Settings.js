@@ -8,7 +8,7 @@ const settingsSchema = mongoose.Schema({
     whatsapp: { type: String },
     github: { type: String },
     linkedin: { type: String },
-    twitter: { type: String },
+    instagram: { type: String },
     email: { type: String },
     phone: { type: String },
     profileImage: { type: String },

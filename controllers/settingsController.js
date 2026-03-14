@@ -31,7 +31,7 @@ const updateSettings = asyncHandler(async (req, res) => {
 
     const {
         heroTitle, heroSubtitle, bio, whatsapp,
-        github, linkedin, twitter, email, phone, footerText
+        github, linkedin, instagram, email, phone, footerText
     } = req.body;
 
     // Handle File Uploads
@@ -80,7 +80,7 @@ const updateSettings = asyncHandler(async (req, res) => {
     if (whatsapp !== undefined) settings.whatsapp = whatsapp;
     if (github !== undefined) settings.github = github;
     if (linkedin !== undefined) settings.linkedin = linkedin;
-    if (twitter !== undefined) settings.twitter = twitter;
+    if (instagram !== undefined) settings.instagram = instagram;
     if (email !== undefined) settings.email = email;
     if (phone !== undefined) settings.phone = phone;
     if (footerText !== undefined) settings.footerText = footerText;
